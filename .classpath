@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_261">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="web/_common/dpuareu.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/_common/UareUApplet.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/commons-cli-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-audit-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-audit-2.0.29.jar.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-base64-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-base64-2.0.29.jar.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-core-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-filecache-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-filecache-2.0.29.jar.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-hp-2.0.29.jar.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-image-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-imageio-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-imageio-rle-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-iod-2.0.29.jar.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-net-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-soundex-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-dcm2dcm-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-dcm2dcm-2.0.29.jar.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-dcm2jpg-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-dcm2txt-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-dcm2xml-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-dcmdir-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-dcmecho-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-dcmgpwl-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-dcmhpqr-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-dcmmv-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-dcmmwl-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-dcmof-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-dcmqr-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-dcmrcv-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-dcmsnd-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-dcmups-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-dcmwado-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-fixjpegls-2.0.29.jar.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-jpg2dcm-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-logger-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-pdf2dcm-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-rgb2ybr-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-txt2dcmsr-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/dcm4che-tool-xml2dcm-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/jai-imageio-core-1.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/log4j-1.2.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/pacs/lib/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/system/IDAPDF417.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/util/dpuareu.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/util/eid/bcprov-jdk16-146.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/util/eid/commons-codec-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/util/eid/commons-io-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/util/eid/commons-logging-1.1.3-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/util/eid/eid-applet-package-1.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/util/eid/eid-applet-service-spi-1.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/util/eid/eid-applet-shared-1.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/bundle/jai-lib-linux-x86-1.1.4-b03.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/bundle/jai-lib-linux-x86-64-1.1.4-b03.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/bundle/jai-lib-windows-x86-1.1.4-b03.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/bundle/weasis-imageio-codec-linux-x86-1.2-b04.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/bundle/weasis-imageio-codec-linux-x86-64-1.2-b04.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/bundle/weasis-imageio-codec-windows-x86-1.2-b04.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/bundle/weasis-jpeg-codec-linux-x86-2.0.0-6b.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/bundle/weasis-jpeg-codec-linux-x86-64-2.0.0-6b.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/bundle/weasis-jpeg-codec-macosx-x86-64-2.0.0-6b.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/bundle/weasis-jpeg-codec-windows-x86-2.0.0-6b.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/bundle/weasis-jpeg-codec-windows-x86-64-2.0.0-6b.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/bundle/weasis-openjpeg-codec-linux-x86-2.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/bundle/weasis-openjpeg-codec-linux-x86-64-2.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/bundle/weasis-openjpeg-codec-macosx-x86-64-2.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/bundle/weasis-openjpeg-codec-windows-x86-2.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/bundle/weasis-openjpeg-codec-windows-x86-64-2.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/felix.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/substance.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/weasis-launcher.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/weasis/WEB-INF/lib/urlrewritefilter-4.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/activation.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/animal-sniffer-annotations-1.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/aopalliance-repackaged-2.4.0-b10.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/asm-debug-all-5.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/aspose-barcode-18.4-jdk17.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/axis-ant.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/axis.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/batik-awt-util.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/batik-dom.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/batik-svggen.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/batik-util.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/batik-xml.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/bcprov-jdk16-146.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/checker-qual-2.8.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/chilkat.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/classloader-leak-prevention-1.15.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/clibwrapper_jiio-1.2-pre-dr-b04.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/commons-beanutils-1.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/commons-cli-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/commons-codec-1.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/commons-collections4-4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/commons-digester-2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/commons-discovery-0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/commons-fileupload-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/commons-httpclient-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/commons-io-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/commons-lang3-3.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/commons-logging-1.1.3-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/commons-logging-1.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/commons-math-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/commons-modeler.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/commons-net-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/commons-text-1.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/core-3.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/cos-09May2002.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/dcm4che-core-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/dcm4che-core-5.22.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/dcm4che-image-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/dcm4che-image-5.22.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/dcm4che-imageio-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/dcm4che-imageio-5.22.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/dcm4che-imageio-opencv-5.22.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/dcm4che-imageio-rle-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/dcm4che-imageio-rle-5.22.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/dcm4che-net-2.0.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/dcm4che-net-5.22.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/dcm4che-tool-common-5.22.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/dcm4che-tool-dcmrcv-2.0.25.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/dom4j-2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/dpuareu.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/eid-applet-package-1.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/eid-applet-service-1.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/eid-applet-service-spi-1.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/eid-applet-shared-1.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/error_prone_annotations-2.3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/exp4j-0.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/ezmorph-1.0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/failureaccess-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/FastInfoset-1.2.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/FDxSDKPro.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/fileupload.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/fluent-hc-4.3.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/fontbox-1.8.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/grfingerjava.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/groovy-all-2.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/gson-2.8.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/guava-28.0-jre.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hapi-base-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hapi-fhir-base-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hapi-fhir-client-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hapi-fhir-server-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hapi-fhir-structures-dstu2-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hapi-fhir-structures-dstu2.1-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hapi-fhir-structures-dstu3-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hapi-fhir-structures-hl7org-dstu2-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hapi-fhir-structures-r4-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hapi-fhir-validation-resources-dstu2-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hapi-fhir-validation-resources-dstu2.1-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hapi-fhir-validation-resources-dstu3-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hapi-fhir-validation-resources-r4-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hapi-structures-v251-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hk2-api-2.4.0-b10.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hk2-locator-2.4.0-b10.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hk2-utils-2.4.0-b10.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/hsqldb.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/httpclient-4.5.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/httpclient-cache-4.3.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/httpcore-4.4.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/httpmime-4.3.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/ij.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/istack-commons-runtime-2.21.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/itext-2.1.7.js4.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/itext5-itext-xtra-5.5.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/itext5-itextpdf-5.5.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/itext5-xmlworker-5.5.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/izmado.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/j2objc-annotations-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/j3dcore.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/j3dutils.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jackcess-2.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jackson-annotations-2.1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jackson-core-2.1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jackson-databind-2.1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jacob.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jai_codec.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jai_core.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jai_imageio-1.2-pre-dr-b04.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jasperreports-6.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jasypt-1.7.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/javase-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/javassist-3.22.0-GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/javax.activation-api-1.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/javax.annotation-api-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/javax.inject-2.4.0-b10.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/javax.json-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/javax.wsdl_1.6.2.v201012040545.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/javax.xml.rpc-api-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jaxb-api-2.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jaxb-core-2.2.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jaxb-runtime-2.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jaxen-1.1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jaxp-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jaxrpc.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jcl-over-slf4j-1.7.28.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jcl.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jcommon-1.0.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jdbc2_0-stdext.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jdbmonitor-common.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jdbmonitor-driver.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jersey-client.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jersey-common.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jersey-container-servlet-core.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jersey-container-servlet.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jersey-guava-2.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jersey-media-jaxb.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jersey-server.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jFdfTk.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jfreechart-1.0.13.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jna-4.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jna-platform-4.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jnet.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jnp-client.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jpos113-controls.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jpos191-controls.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jpos191.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jr-acreditacion-susalud-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jsmpp-2.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/json-20190722.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jsr305-3.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/jstl.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/junit.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/log4j-1.2.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/log4j.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/mail.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/mlibwrapper_jai.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/morena_license.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/morena_windows.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/morena.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/mysql-connector-java-5.1.10-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/ognl-3.1.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/ojdbc6.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/oldlib/dom4j-full.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/org.hl7.fhir.dstu2-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/org.hl7.fhir.dstu2016may-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/org.hl7.fhir.dstu3-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/org.hl7.fhir.r4-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/org.hl7.fhir.utilities-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/org.osgi.core-4.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/oshi-core-2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/pdfbox-1.8.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/PDFRenderer-0.9.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/persistence-api-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/ph-collection-9.3.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/ph-commons-9.3.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/ph-jaxb-9.3.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/ph-schematron-5.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/ph-xml-9.3.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/pixelmed.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/poi-3.10.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/poi-ooxml-3.10.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/poi-ooxml-schemas-3.10.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/primrose.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/RXTXcomm.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/saaj-api-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/saaj.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/sax.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/slf4j-api-1.7.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/slf4j-log4j12-1.7.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/smppapi-0.3.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/smslib-3.5.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/sourceafis-3.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/spring-beans-5.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/spring-core-5.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/spring-jcl-5.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/spring-web-5.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/sqljdbc4.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/standard.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/star/Windows 32-bit/jcl.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/star/Windows 32-bit/jpos113-controls.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/star/Windows 32-bit/stario.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/star/Windows 32-bit/starjavapos.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/star/Windows 32-bit/xercesimpl.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/star/Windows 32-bit/xml-apis.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/star/Windows 64-bit/jcl.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/star/Windows 64-bit/jpos113-controls.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/star/Windows 64-bit/stario.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/star/Windows 64-bit/starjavapos.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/star/Windows 64-bit/xercesimpl.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/star/Windows 64-bit/xml-apis.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/stario.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/starjavapos.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/StatisticsJ2SE.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/stax-ex-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/struts.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/swtgraphics2d.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/symbol-jpos-scanner191.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/txw2-2.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/UareUApplet.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/ucanaccess-3.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/ucum-1.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/uploadbean.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/validation-api-1.1.0.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/vecmath-1.5.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/weasis-core-img-4.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/xml-apis-ext.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/xml-apis.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/xom-1.2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/xpp3_xpath-1.1.4c.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/xpp3-1.1.4c.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/xsltc.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/WEB-INF/lib/zip4j-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jsp-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/activation.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/animal-sniffer-annotations-1.17.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/aopalliance-repackaged-2.4.0-b10.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/asm-debug-all-5.0.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/aspose-barcode-18.4-jdk17.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/axis.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/axis-ant.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/batik-awt-util.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/batik-dom.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/batik-svggen.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/batik-util.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/batik-xml.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/bcprov-jdk16-146.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/checker-qual-2.8.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/chilkat.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/classloader-leak-prevention-1.15.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/clibwrapper_jiio-1.2-pre-dr-b04.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/commons-beanutils-1.9.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/commons-cli-1.4.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/commons-codec-1.12.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/commons-collections4-4.3.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/commons-fileupload-1.4.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/commons-lang3-3.9.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/commons-logging-1.1.3-api.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/commons-math-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/commons-modeler.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/commons-net-2.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/commons-text-1.7.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/cos-09May2002.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/dcm4che-core-2.0.29.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/dcm4che-core-5.22.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/dcm4che-image-2.0.29.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/dcm4che-image-5.22.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/dcm4che-imageio-2.0.29.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/dcm4che-imageio-5.22.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/dcm4che-imageio-opencv-5.22.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/dcm4che-imageio-rle-2.0.29.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/dcm4che-imageio-rle-5.22.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/dcm4che-net-2.0.29.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/dcm4che-net-5.22.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/dcm4che-tool-common-5.22.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/dcm4che-tool-dcmrcv-2.0.25.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/dom4j-2.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/dpuareu.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/eid-applet-package-1.2.6.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/eid-applet-service-1.2.6.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/eid-applet-service-spi-1.2.6.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/eid-applet-shared-1.2.6.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/error_prone_annotations-2.3.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/exp4j-0.4.3.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/FastInfoset-1.2.15.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/FDxSDKPro.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/fileupload.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/fluent-hc-4.3.5.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/fontbox-1.8.9.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/grfingerjava.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/groovy-all-2.4.3.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/guava-28.0-jre.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/hapi-base-2.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/hapi-fhir-base-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/hapi-fhir-client-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/hapi-fhir-server-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/hapi-fhir-structures-r4-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/hapi-fhir-validation-resources-r4-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/hapi-structures-v251-2.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/hk2-api-2.4.0-b10.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/hk2-locator-2.4.0-b10.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/hk2-utils-2.4.0-b10.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/hsqldb.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/httpclient-4.5.9.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/httpclient-cache-4.3.5.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/httpcore-4.4.11.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/httpmime-4.3.5.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/ij.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/istack-commons-runtime-2.21.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/itext-2.1.7.js4.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/itext5-itextpdf-5.5.12.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/itext5-itext-xtra-5.5.12.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/itext5-xmlworker-5.5.12.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/izmado.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/j2objc-annotations-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/j3dcore.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/j3dutils.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jackcess-2.1.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jackson-annotations-2.1.4.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jackson-core-2.1.4.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jackson-databind-2.1.4.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jacob.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jai_codec.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jai_core.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jai_imageio-1.2-pre-dr-b04.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jasperreports-6.2.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jasypt-1.7.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/javase-2.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/javassist-3.22.0-GA.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/javax.inject-2.4.0-b10.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/javax.json-1.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/javax.wsdl_1.6.2.v201012040545.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/javax.xml.rpc-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jaxb-core-2.2.11.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jaxb-runtime-2.3.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jaxen-1.1.6.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jaxp-api.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jcl.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jcl-over-slf4j-1.7.28.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jcommon-1.0.10.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jdbmonitor-common.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jdbmonitor-driver.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jersey-client.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jersey-common.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jersey-container-servlet.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jersey-container-servlet-core.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jersey-guava-2.17.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jersey-media-jaxb.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jersey-server.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jFdfTk.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jfreechart-1.0.13.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jna-4.2.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jna-platform-4.2.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jnet.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jnp-client.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jpos113-controls.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jpos191.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jpos191-controls.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jr-acreditacion-susalud-1.0.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jsmpp-2.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/json-20190722.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/junit.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/mail.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/mlibwrapper_jai.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/morena.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/morena_license.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/morena_windows.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/mysql-connector-java-5.1.10-bin.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/ognl-3.1.12.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/org.hl7.fhir.dstu2-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/org.hl7.fhir.dstu3-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/org.hl7.fhir.dstu2016may-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/org.hl7.fhir.r4-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/org.hl7.fhir.utilities-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/org.osgi.core-4.2.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/oshi-core-2.3.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/pdfbox-1.8.9.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/PDFRenderer-0.9.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/persistence-api-1.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/ph-collection-9.3.4.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/ph-commons-9.3.8.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/ph-jaxb-9.3.4.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/ph-schematron-5.2.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/ph-xml-9.3.4.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/pixelmed.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/poi-3.10.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/poi-ooxml-3.10.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/poi-ooxml-schemas-3.10.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/primrose.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/RXTXcomm.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/saaj.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/saaj-api-1.3.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/sax.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/slf4j-api-1.7.29.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/slf4j-log4j12-1.7.29.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/smppapi-0.3.9.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/smslib-3.5.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/sourceafis-3.4.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/spring-beans-5.2.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/spring-core-5.2.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/spring-jcl-5.2.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/spring-web-5.2.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/StatisticsJ2SE.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/stax-ex-1.8.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/struts.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/swtgraphics2d.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/symbol-jpos-scanner191.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/txw2-2.3.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/UareUApplet.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/ucanaccess-3.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/ucum-1.0.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/uploadbean.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/vecmath-1.5.2.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/weasis-core-img-4.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/xml-apis.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/xml-apis-ext.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/xom-1.2.5.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/xpp3_xpath-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/xpp3-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/xsltc.jar"/>
+	<classpathentry kind="lib" path="E:/openclinic-files/oldDemo/openclinic/WEB-INF/lib/zip4j-1.3.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
