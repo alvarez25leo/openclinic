@@ -895,7 +895,7 @@
     	}
     	
     	User user = new User();
-    	if(user.initialize(username,user.encrypt(password))){
+    	if(user.initialize(username,password)){
 	        request.getSession().setAttribute("activeUser",user);
 	        MedwanQuery.setSession(request.getSession(),user);
 	        
@@ -904,6 +904,72 @@
 	        request.getSession().setAttribute("mon_browser",browser+" "+version);
 	        request.getSession().setAttribute("mon_start",new java.util.Date());
     	}
+    }
+
+    public String getBrowserString(javax.servlet.http.HttpServletRequest request){
+    	String ag = request.getHeader("User-Agent"), browser = "", version = "";
+    	try{
+    		int tmpPos; 
+    		ag = ag.toLowerCase();
+    		if(ag.contains("msie")){
+    			browser = "Internet Explorer";
+    		    String str = ag.substring(ag.indexOf("msie")+5);
+    		    version = str.substring(0,str.indexOf(";"));
+    		}
+    		else if(ag.contains("opera")){
+    			browser = "Opera";
+    			ag = ag.substring(ag.indexOf("version"));
+    			String str = "";
+    			if(ag.indexOf(" ")>-1){
+    				str = (ag.substring(tmpPos = (ag.indexOf("/"))+1,tmpPos+ag.indexOf(" "))).trim();
+    			    version = str.substring(0,str.indexOf(" "));
+    			}
+    			else{
+    				version = (ag.substring(tmpPos = (ag.indexOf("/"))+1)).trim();
+    			}
+    		}
+    		else if(ag.contains("chrome")){
+    			browser = "Chrome";
+    			ag = ag.substring(ag.indexOf("chrome"));
+    			String str = "";
+    			if(ag.indexOf(" ")>-1){
+    				str = (ag.substring(tmpPos = (ag.indexOf("/"))+1,tmpPos+ag.indexOf(" "))).trim();
+    			    version = str.substring(0,str.indexOf(" "));
+    			}
+    			else{
+    				version = (ag.substring(tmpPos = (ag.indexOf("/"))+1)).trim();
+    			}
+    		}
+    		else if(ag.contains("firefox")){
+    			browser = "Firefox";
+    			ag = ag.substring(ag.indexOf("firefox"));
+    			String str = "";
+    			if(ag.indexOf(" ")>-1){
+    				str = (ag.substring(tmpPos = (ag.indexOf("/"))+1,tmpPos+ag.indexOf(" "))).trim();
+    			    version = str.substring(0,str.indexOf(" "));
+    			}
+    			else{
+    				version = (ag.substring(tmpPos = (ag.indexOf("/"))+1)).trim();
+    			}
+    		}
+    		else if(ag.contains("safari") && ag.contains("version")){
+    			browser = "Safari";
+    			ag = ag.substring(ag.indexOf("version"));
+    			String str = "";
+    			if(ag.indexOf(" ")>-1){
+    				str = (ag.substring(tmpPos = (ag.indexOf("/"))+1,tmpPos+ag.indexOf(" "))).trim();
+    			    version = str.substring(0,str.indexOf(" "));
+    			}
+    			else{
+    				version = (ag.substring(tmpPos = (ag.indexOf("/"))+1)).trim();
+    			}
+    		}
+    	}
+    	catch(Exception e3){
+    		e3.printStackTrace();
+    	}
+    	
+        return browser+" "+version;
     }
 
     public void datacenterLogin(javax.servlet.http.HttpServletRequest request){

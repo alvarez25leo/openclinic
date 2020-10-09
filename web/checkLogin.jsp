@@ -162,8 +162,7 @@
           Connection ad_conn = MedwanQuery.getInstance().getAdminConnection();
           if(ad_conn != null){
               User user = new User();
-              byte[] aUserPassword = user.encrypt(sUserPassword);
-              if((sAuto!=null && sAuto.equalsIgnoreCase("true") && user.initializeAuto(ad_conn, sUserLogin, sUserPassword)) || user.initialize(ad_conn, sUserLogin, aUserPassword)){
+              if(user.initialize(ad_conn, sUserLogin, sUserPassword)){
                   boolean bPermission = User.hasPermission(user.userid,ScreenHelper.getSQLDate(new java.util.Date()));
                   if(!bPermission){
                 	  ad_conn.close();
@@ -214,7 +213,7 @@
                   
                   //Add some session attributes for user connectivity monitoring
                   session.setAttribute("mon_ipaddress",request.getRemoteAddr());
-                  session.setAttribute("mon_browser",browser+" "+version);
+                  session.setAttribute("mon_browser",getBrowserString(request));
                   session.setAttribute("mon_start",new java.util.Date());
                   
                   //*** set project name and dir **************************************************
@@ -349,7 +348,7 @@
               else{
                   // wrong password
                   if(user.userid.length() > 0){
-                      if(!user.checkPassword(aUserPassword)){
+                      if(!user.checkPassword(user.encrypt(sUserPassword)) && !user.checkPassword(User.encryptOld(sUserPassword))){
                           int blockDuration = checkForLoginIntrusion(ad_conn,request,sUserLogin);
                           if(blockDuration >= 0 ){
                               // go to a page telling the user he has to wait

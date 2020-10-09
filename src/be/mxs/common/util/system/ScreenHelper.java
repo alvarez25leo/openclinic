@@ -118,6 +118,16 @@ public class ScreenHelper {
     	}
     }
     
+    public static boolean isAcceptableUploadFileExtension(String sFileName) {
+    	String[] forbiddenExtensions = MedwanQuery.getInstance().getConfigString("forbiddentUploadFileExtensions",".html,.jsp,.htm,.js,.do").split(",");
+    	for(int n=0;n<forbiddenExtensions.length;n++) {
+    		if(sFileName.toLowerCase().endsWith(forbiddenExtensions[n].toLowerCase())) {
+    			return false;
+    		}
+    	}
+    	return true;
+    }
+    
     public static Connection getOpenclinicConnection() {
     	return MedwanQuery.getInstance().getOpenclinicConnection();
     }
@@ -738,7 +748,7 @@ public class ScreenHelper {
     }
 
     public static String getTran(HttpServletRequest request,String sType, String sID, String sLanguage, boolean displaySimplePopup){
-        String labelValue = "";
+    	String labelValue = "";
 
         try{
             if(sLanguage==null || sLanguage.length()!=2){
@@ -1319,6 +1329,7 @@ public static String removeAccents(String sTest){
         sTest = sTest.replaceAll("á","a");
         sTest = sTest.replaceAll("à","a");
         sTest = sTest.replaceAll("â","a");
+        sTest = sTest.replaceAll("ñ","n");
 
         sTest = sTest.replaceAll("É","E");
         sTest = sTest.replaceAll("È","E");
@@ -1332,7 +1343,7 @@ public static String removeAccents(String sTest){
         sTest = sTest.replaceAll("Ä","A");
         sTest = sTest.replaceAll("Á","A");
         sTest = sTest.replaceAll("À","A");
-        sTest = sTest.replaceAll("Â","A");
+        sTest = sTest.replaceAll("Ñ","N");
 
         return sTest;
     }
@@ -1436,6 +1447,35 @@ public static String removeAccents(String sTest){
             setRow(request,"Web","region",apc.sanitarydistrict,sLanguage)+
             setRow(request,"Web","country.department",apc.district,sLanguage)+
             setRow(request,"Web","arrondissement",apc.sector,sLanguage)+
+            setRow(request,"Web","sector",apc.quarter,sLanguage)+
+            setRow(request,"Web","address",apc.address,sLanguage)+
+            setRow(request,"Web","postcode",apc.zipcode,sLanguage)+
+            setRow(request,"Web","country",sCountry,sLanguage)+
+            setRow(request,"Web","email",apc.email,sLanguage)+
+            setRow(request,"Web","telephone",apc.telephone,sLanguage)+
+            setRow(request,"Web","mobile",apc.mobile,sLanguage)+
+            setRow(request,"Web","function",apc.businessfunction,sLanguage)+
+            setRow(request,"Web","business",apc.business,sLanguage)+
+            setRow(request,"Web","comment",apc.comment,sLanguage)
+        );
+    }
+
+    public static String setBurkinaAdminPrivateContact(HttpServletRequest request,AdminPrivateContact apc, String sLanguage){
+        String sCountry = "&nbsp;";
+        if(checkString(apc.country).trim().length()>0){
+            sCountry = getTran(null,"Country",apc.country,sLanguage);
+        }
+
+        String sProvince = "&nbsp;";
+        if(checkString(apc.province).trim().length()>0){
+            sProvince = getTran(null,"province",apc.province,sLanguage);
+        }
+        
+        return(
+            setRow(request,"Web.admin","addresschangesince",apc.begin,sLanguage)+
+            setRow(request,"Web","region",apc.sanitarydistrict,sLanguage)+
+            setRow(request,"Web","province",apc.district,sLanguage)+
+            setRow(request,"Web","country.department",apc.sector,sLanguage)+
             setRow(request,"Web","sector",apc.quarter,sLanguage)+
             setRow(request,"Web","address",apc.address,sLanguage)+
             setRow(request,"Web","postcode",apc.zipcode,sLanguage)+
@@ -3943,7 +3983,9 @@ public static String removeAccents(String sTest){
         }
         
         try{
-            pageContext.include(sPage);
+        	if(!SH.isAcceptableUploadFileExtension(sPage.substring(0,sPage.indexOf("?")))) {
+        		pageContext.include(sPage);
+        	}
         }
         catch(Exception e){
             e.printStackTrace();
